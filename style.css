@@ -1,0 +1,118 @@
+body{
+    margin: none;
+    padding: none;
+    background-color: black;
+}
+
+#app{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225,225,225);
+    background-color: rgb(115, 105, 105);
+    font-size: 2em;
+    text-align: center;
+    margin: none;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(194, 33, 25);
+}
+
+a:visited{
+    color: rgb(194, 33, 25);
+}
+
+
+a:hover{
+    color: rgb(225, 225, 225);
+    /* text-decoration- */
+}
+
+#bigtitle {
+    background-color: rgb(194, 33, 25);
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+
+h1{
+    /* text-align: center;
+    font-size: 52; */
+}
+
+#overlay{
+
+}
+
+#bottomlayer{
+    width: 100%;
+    font-size: 3em;
+
+}
+
+#news{
+    background-color: rgb(194, 33, 25);
+    height: 5em;
+
+}
+
+#merchandise{
+    height: 8em;
+
+}
+
+#events{
+    background-color: rgb(194, 33, 25);
+    height: 5em;
+
+}
+
+#schedule{
+    height: 5em;
+
+}
+
+#music{
+    background-color: rgb(194, 33, 25);
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-size: .5em;
+
+}
+
+#playlist{
+    width: 50%;
+    border: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 2px;
+    border-color: rgb(115, 105, 105);
+}
+
+#suggestions{
+    width: 50%;
+    border: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 2px;
+    border-color: rgb(115, 105, 105);
+
+}
+
+#webmaster{
+    font-size: .2em;
+}
