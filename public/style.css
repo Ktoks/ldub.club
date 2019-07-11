@@ -1,0 +1,160 @@
+body, html{
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 100%
+}
+
+#app{
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color: rgba(225,225,225,.80);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+#bottomlayer{
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    width: 100%;
+    font-size: 3em;
+    background-color: rgba(0,0,0,0);
+}
+
+.bottomparallax {
+    background-image: url("originallacitattoo.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 25%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.topparallax1 {
+    background-image: url("ldubclubberssummit.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topparallax2 {
+    background-image: url("lemons.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bigtitle {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    height: 1000px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(90, 90, 90);
+    width: 100%;
+    font-size: .5em;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+
+a:visited{
+    color: rgb(225, 225, 225);
+}
+
+
+a:hover{
+    color: rgb(0, 0, 0);
+    /* text-decoration- */
+}
+
+#space{
+    height: 9em;
+}
+
+/* .merchparallax{
+    background-image: url("fatfitfeb.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+} */
+
+#merchandise {
+    background-color: rgb(90, 90, 90);
+    color: rgb(194, 33, 25);
+}
+
+#merchbody{
+    height: 12em;
+    background-color: rgba(90, 90, 90,.8);
+    font-size: .25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#schedule {
+    background-color: rgb(90, 90, 90);
+    color: rgb(194, 33, 25);
+}
+
+#calendar{
+    height: 5em;
+}
+
+#announcements{
+    background-color: rgb(90, 90, 90);
+    color: rgb(194, 33, 25);
+}
+
+#announcementsbody{
+    height: 5em;
+}
+
+#musicbody{
+    height: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    width: 100%;
+    font-size: .5em;
+}
+
+#playlist{
+    flex-grow: 1;
+    background-color: rgba(90, 90, 90,.8);
+
+}
+
+#suggestions{
+    flex-grow: 1;
+    background-color: rgba(90, 90, 90,.8);
+}
+
+#webmaster{
+    font-size: .2em;
+    color: red;
+}

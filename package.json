@@ -1,0 +1,24 @@
+{
+  "name": "ldubwebsite",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacystocks/ldubclub.git"
+  },
+  "author": "Kacy Stocks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kacystocks/ldubclub/issues"
+  },
+  "homepage": "https://github.com/kacystocks/ldubclub#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.10"
+  }
+}
