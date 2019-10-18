@@ -1,0 +1,162 @@
+body, html{
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    background-color: rgba(50,50,50,1);
+    height: 100%
+}
+
+#app{
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color: rgba(225,225,225,.80);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+    /* font-weight: 100; */
+    width: 100%;
+}
+
+#bottomlayer{
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    width: 100%;
+    font-size: 3em;
+}
+
+.bottomparallax {
+    background-image: url("laciCurlyHair.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#topparallax {
+    background-image: url("lacicitybnw.jpg");
+    background-color: rgba(80,80,80,1);
+    height: 80%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    font-size: .3em;
+    color: rgb(194, 33, 25);
+    z-index: 2;
+    position:relative;  
+}
+
+#bigtitle {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: .7em;
+    /* font-stretch: expanded; */
+    /* font-weight: bold; */
+    line-height: .9em;
+    color: rgba(194, 33, 25, .8);
+    letter-spacing: .05em;
+    line-height: 1.5em;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hello {
+  width: 295px;
+}
+
+#im {
+  text-align: left;
+}
+
+#laciwall {
+  text-align: right;
+}
+
+#aka {
+  text-align: left;
+}
+
+#ldub {
+  text-align: right;
+}
+
+#story {
+  align-content: right;
+  width: 295px;
+}
+
+#this {
+  text-align: left;
+}
+
+#is {
+  text-align: right;
+}
+
+#my {
+  text-align: left;
+}
+
+#mstory {
+  text-align: right;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(50,50,50);
+    width: 100%;
+    font-size: .5em;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgba(194, 33, 25, .8);
+}
+
+a:visited{
+    color: rgba(194, 33, 25, .8);
+}
+
+
+a:hover{
+    color: rgb(0, 0, 0);
+    /* text-decoration- */
+}
+
+
+#webmaster{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+/* Tablet: */
+@media only screen and (max-width:64em) { 
+  #topparalax {
+    background-size: 80%;
+  }
+
+  .bottomparallax {
+    background-size: 80%;
+  }
+
+}
+
+/* CellPhone: */
+@media only screen and (max-width:37.5em) { 
+  #topparalax {
+    background-size: 100%;
+  }
+
+  .bottomparallax {
+    background-size: 100%;
+  }
+}

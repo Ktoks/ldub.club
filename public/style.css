@@ -1,34 +1,39 @@
-body, html{
+body,
+html {
     margin: none;
     padding: none;
     border-width: 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(50, 50, 50, 1);
     height: 100%
 }
 
-#app{
+#app {
     margin: none;
     padding: none;
     border-width: 0px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    color: rgba(225,225,225,.80);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: rgba(225, 225, 225, .80);
     background-color: rgba(0, 0, 0, 0);
     font-size: 2em;
     text-align: center;
     width: 100%;
 }
 
-#bottomlayer{
+img {
+    vertical-align: top;
+}
+
+#bottomlayer {
     margin: none;
     padding: none;
     border-width: 0px;
     width: 100%;
     font-size: 3em;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bottomparallax {
-    background-image: url("originallacitattoo.jpg");
+    background-image: url("LDUBTAT.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position-x: center;
@@ -37,23 +42,25 @@ body, html{
     background-size: 90%;
 }
 
-.topparallax1 {
-    background-image: url("ldubclubberssummit.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.topparallax2 {
-    background-image: url("lemons.jpg");
+/* .topparallax1 {
+    background-image: url("theclub.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position-x: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-size: 90%;
+} */
+
+
+/* .topparallax2 {
+    background-image: url("LDUBTAT.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+} */
 
 #bigtitle {
     background-color: rgba(0, 0, 0, 0);
@@ -62,36 +69,41 @@ body, html{
     font-weight: bold;
     letter-spacing: .1em;
     height: 1000px;
+    color: rgba(194, 33, 25, .8);
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(50, 50, 50);
     width: 100%;
     font-size: .5em;
+    color: rgba(194, 33, 25, .8);
 }
 
-a:link{
+a:link {
     text-decoration: none;
-    color: rgb(225, 225, 225);
+    color: rgba(194, 33, 25, .8);
 }
 
-a:visited{
-    color: rgb(225, 225, 225);
+a:visited {
+    color: rgba(194, 33, 25, .8);
 }
 
-
-a:hover{
+a:hover {
     color: rgb(0, 0, 0);
     /* text-decoration- */
 }
 
-#space{
-    height: 9em;
+#space {
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    height: 100%;
 }
+
 
 /* .merchparallax{
     background-image: url("fatfitfeb.jpg");
@@ -103,58 +115,134 @@ a:hover{
 } */
 
 #merchandise {
-    background-color: rgb(90, 90, 90);
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    background-color: rgb(50, 50, 50);
     color: rgb(194, 33, 25);
 }
 
-#merchbody{
-    height: 12em;
-    background-color: rgba(90, 90, 90,.8);
+#merchbody {
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    height: 100%;
+    background-color: rgba(90, 90, 90, .8);
     font-size: .25em;
+    display: flex;
+    flex-direction: column;
+}
+
+#hatdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#shirtdiv {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 #schedule {
-    background-color: rgb(90, 90, 90);
+    margin: none;
+    padding: none;
+    border-width: 0px;
+    background-color: rgb(50, 50, 50);
     color: rgb(194, 33, 25);
 }
 
-#calendar{
-    height: 5em;
-}
 
-#announcements{
-    background-color: rgb(90, 90, 90);
+/* #calendar {
+} */
+
+#announcements {
+    border-width: 0px;
+    background-color: rgb(50, 50, 50);
     color: rgb(194, 33, 25);
 }
 
-#announcementsbody{
+#announcementsbody {
+    border-width: 0px;
     height: 5em;
 }
 
-#musicbody{
-    height: 7em;
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
+#musicbody {
+    border-width: 0px;
+    height: 8em;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: stretch; */
     width: 100%;
     font-size: .5em;
+    color: rgb(194, 33, 25);
+    background-color: rgb(50, 50, 50);
 }
 
-#playlist{
+#playlist {
+    border-width: 0px;
+    /* flex-grow: 1; */
+    background-color: rgba(90, 90, 90, .8);
+    overflow: scroll;
+    text-align: left;
+    font-size: .8em;
+    line-height: 1.6em;
+    height: 8em;
+    color: rgba(225, 225, 225, .80);
+
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background: rgba(90, 90, 90, .8);
+}
+    
+::-webkit-scrollbar-track {
+    background: rgba(90, 90, 90, .8);
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ccc;  
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background: #999;  
+}
+
+#suggestions {
     flex-grow: 1;
-    background-color: rgba(90, 90, 90,.8);
-
+    background-color: rgba(90, 90, 90, .8);
 }
 
-#suggestions{
-    flex-grow: 1;
-    background-color: rgba(90, 90, 90,.8);
-}
-
-#webmaster{
+#webmaster {
     font-size: .2em;
-    color: red;
+    color: rgb(90, 90, 90);
+}
+
+
+/* Tablet: */
+
+@media only screen and (max-width:94em) {
+    #bigtitle {
+        font-size: 1em;
+    }
+    nav {
+        font-size: .25em;
+    }
+}
+
+
+/* CellPhone: */
+
+@media only screen and (max-width:50em) {
+    #bigtitle {
+        font-size: .5em;
+    }
+    nav {
+        font-size: .2em;
+    }
 }
