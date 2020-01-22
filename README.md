@@ -1,4 +1,4 @@
-# LDUB CLUB app Beta
+# LDUB CLUB website Beta
 
 ## General Info
 
